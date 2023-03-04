@@ -1,0 +1,123 @@
+:root {
+    --bgLigthColor: #fff --bgDarkColor:#000;
+    --fontColorEspecial: #2C40F2;
+}
+
+.forMe {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.name {
+    color: #aaa;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.bg-img {
+    background: #f5f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    -webkit-box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+-moz-box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+}
+
+#darkMode {
+    font-size: 1.2em;
+}
+
+#darkMode:hover {
+    color: #777;
+    cursor: pointer;
+}
+
+.forMeText {
+
+    width: 50%;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.card{
+    -webkit-box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+    -moz-box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+    box-shadow: -4px -1px 44px -7px rgba(128,119,128,1);
+}
+
+
+
+.nameTitle {
+    font-family: 'Syncopate', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.6rem;
+    font-weight: bolder;
+}
+
+.colorViolet {
+    color: var(--fontColorEspecial)
+}
+
+.img-fluid {
+    width: 300px;
+
+}
+
+.card-body{
+
+}
+
+.darkMode {
+
+    background: #000;
+}
+
+.fontWhite {
+    color: white;
+}
+
+.service{
+
+    gap:60px;
+}
+
+#contact{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .forMe {
+        flex-direction: column-reverse;
+        gap: 60px
+    }
+
+    .bg-img {
+        width: 50vw;
+    }
+
+    .forMeText {
+        text-align: justify;
+        width: 80%;
+    }
+    .tech{
+
+        gap:10px;
+    }
+
+
+}
